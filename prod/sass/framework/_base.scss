@@ -9,17 +9,18 @@
 }
 
 html {
-  font-size: 62.5%;   
+  font-size: 62.5%;
   height: 100%;
 }
 
 body {
-  font-size: 100%;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
   color: $black;
   -webkit-tap-highlight-color: transparent;
   @include font-smoothing();
   text-rendering: optimizeLegibility;
-  background: yellow;
+  background: $white;
 }
 
 a {
@@ -40,7 +41,7 @@ img {
 }
 
 strong {
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 
@@ -48,6 +49,7 @@ strong {
 * HEADER STYLES
 ******************************/
 h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px;
   text-rendering: optimizeLegibility;
 }
 

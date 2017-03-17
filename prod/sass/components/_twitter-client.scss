@@ -1,0 +1,27 @@
+.component.twitter-client {
+	ul.tweets {
+		> li {
+			clear: both;
+			margin-bottom: 40px;
+
+			ul.tweet {
+				li {
+					span {
+						display: inline-block;
+						font-weight: bold;
+					}
+				}
+			}
+
+		}
+	}
+
+	#formcomment {
+		padding: 20px;
+		background: $black;
+
+		label {
+			color: $white;
+		}
+	}
+}
